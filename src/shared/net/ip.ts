@@ -11,8 +11,7 @@ const BLOCKED_IPV4_SPECIAL_USE_RANGES = new Set<Ipv4Range>([
   "linkLocal",
   "loopback",
   "carrierGradeNat",
-  "private",
-  "reserved",
+  "private"
 ]);
 
 const PRIVATE_OR_LOOPBACK_IPV4_RANGES = new Set<Ipv4Range>([
